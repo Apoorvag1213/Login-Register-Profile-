@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1>User Profile</h1>
+        </div>
+    </header>
+    <main class="container mt-4">
+        <section id="personalInfo">
+            <h2 class="mb-3">Personal Information</h2>
+            <div class="mb-3">
+                <p>Age: <input type="text" id="age" class="form-control" value="30"></p>
+                <p>Date of Birth: <input type="text" id="dob" class="form-control" value="1990-01-01"></p>
+                <p>Contact: <input type="text" id="contact" class="form-control" value="1234567890"></p>
+            </div>
+            <button id="saveProfile" class="btn btn-primary">Save</button>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

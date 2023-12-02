@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+#editSection {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
